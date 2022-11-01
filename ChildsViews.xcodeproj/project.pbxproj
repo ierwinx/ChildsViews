@@ -13,6 +13,10 @@
 		AA593D2D291187340009BE36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA593D2B291187340009BE36 /* Main.storyboard */; };
 		AA593D2F291187360009BE36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA593D2E291187360009BE36 /* Assets.xcassets */; };
 		AA593D32291187360009BE36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA593D30291187360009BE36 /* LaunchScreen.storyboard */; };
+		AA593D3C291189A20009BE36 /* Vista1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA593D3A291189A20009BE36 /* Vista1ViewController.swift */; };
+		AA593D3D291189A20009BE36 /* Vista1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA593D3B291189A20009BE36 /* Vista1ViewController.xib */; };
+		AA593D402911ACDD0009BE36 /* Vista2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA593D3E2911ACDD0009BE36 /* Vista2ViewController.swift */; };
+		AA593D412911ACDD0009BE36 /* Vista2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA593D3F2911ACDD0009BE36 /* Vista2ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		AA593D2E291187360009BE36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA593D31291187360009BE36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA593D33291187360009BE36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA593D3A291189A20009BE36 /* Vista1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vista1ViewController.swift; sourceTree = "<group>"; };
+		AA593D3B291189A20009BE36 /* Vista1ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Vista1ViewController.xib; sourceTree = "<group>"; };
+		AA593D3E2911ACDD0009BE36 /* Vista2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vista2ViewController.swift; sourceTree = "<group>"; };
+		AA593D3F2911ACDD0009BE36 /* Vista2ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Vista2ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		AA593D24291187340009BE36 /* ChildsViews */ = {
 			isa = PBXGroup;
 			children = (
+				AA593D392911897B0009BE36 /* Hijos */,
 				AA593D25291187340009BE36 /* AppDelegate.swift */,
 				AA593D27291187340009BE36 /* SceneDelegate.swift */,
 				AA593D29291187340009BE36 /* ViewController.swift */,
@@ -65,6 +74,17 @@
 				AA593D33291187360009BE36 /* Info.plist */,
 			);
 			path = ChildsViews;
+			sourceTree = "<group>";
+		};
+		AA593D392911897B0009BE36 /* Hijos */ = {
+			isa = PBXGroup;
+			children = (
+				AA593D3A291189A20009BE36 /* Vista1ViewController.swift */,
+				AA593D3B291189A20009BE36 /* Vista1ViewController.xib */,
+				AA593D3E2911ACDD0009BE36 /* Vista2ViewController.swift */,
+				AA593D3F2911ACDD0009BE36 /* Vista2ViewController.xib */,
+			);
+			path = Hijos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +145,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA593D412911ACDD0009BE36 /* Vista2ViewController.xib in Resources */,
+				AA593D3D291189A20009BE36 /* Vista1ViewController.xib in Resources */,
 				AA593D32291187360009BE36 /* LaunchScreen.storyboard in Resources */,
 				AA593D2F291187360009BE36 /* Assets.xcassets in Resources */,
 				AA593D2D291187340009BE36 /* Main.storyboard in Resources */,
@@ -138,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA593D402911ACDD0009BE36 /* Vista2ViewController.swift in Sources */,
+				AA593D3C291189A20009BE36 /* Vista1ViewController.swift in Sources */,
 				AA593D2A291187340009BE36 /* ViewController.swift in Sources */,
 				AA593D26291187340009BE36 /* AppDelegate.swift in Sources */,
 				AA593D28291187340009BE36 /* SceneDelegate.swift in Sources */,
